@@ -19,7 +19,8 @@ modified so that ARM compiles without errors by LightningJimmy
  * cd cpuminer-balloon
  * ./build.sh
  
- (Note: ./build.sh will take quite a few minutes, don't do anything)
+ Note: ./build.sh will take quite a few minutes, don't do anything until it actually finishes. If it ends with an error, try running this instead:
+  * ./pibuild.sh
 
 ### mine
  * ./cpuminer -a balloon -o stratum+tcp://mine-deft.leafpool.com:6611 -u dPWarUhyPbo6C3ijoPgziUzHjvjma2k6vA -p x
