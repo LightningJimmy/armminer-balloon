@@ -6,7 +6,7 @@
 
 #include "miner.h"
 
-#if defined(__arm__) || defined(_MSC_VER)
+#if defined(__aarch64__) || defined(_MSC_VER)
 #ifndef NOASM
 #define NOASM
 #endif
