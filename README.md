@@ -13,8 +13,8 @@ optimized balloon, authored by Belgarion ( accepting donations at: (deft) dJP7aS
 modified so that ARM compiles without errors by LightningJimmy
 
 ### installation
- * apt update
- * apt install build-essential autoconf automake libssl-dev libcurl4-openssl-dev libjansson-dev zlib1g-dev screen git
+ * sudo apt update
+ * sudo apt install build-essential autoconf automake libssl-dev libcurl4-openssl-dev libjansson-dev zlib1g-dev screen git
  * git clone https://github.com/LightningJimmy/cpuminer-balloon
  * cd cpuminer-balloon
  * ./build.sh
