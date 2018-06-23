@@ -18,6 +18,7 @@ modified so that ARM compiles without errors by LightningJimmy
  * git clone https://github.com/LightningJimmy/cpuminer-balloon
  * cd cpuminer-balloon
  * ./build.sh
+ (Note: ./build.sh will take a few minutes, don't do anything)
 
 ### mine
  * ./cpuminer -a balloon -o stratum+tcp://mine-deft.leafpool.com:6611 -u dPWarUhyPbo6C3ijoPgziUzHjvjma2k6vA -p x
